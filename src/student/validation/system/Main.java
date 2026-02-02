@@ -8,9 +8,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("\n============= Student Registration =============");
         try (sc) {
-            System.out.println("\n============= Student Registration =============");
             System.out.print("Enter Roll no: ");
             int rollNo = sc.nextInt();
             System.out.print("Enter Name: ");
@@ -24,7 +23,7 @@ public class Main {
             Student student = new Student(rollNo, name, age, course);
             student.display();
         } catch (AgeNotWithinRangeException | NameNotValidException e) {
-            System.out.println("Registration Failed: " + e.getMessage());
+            System.out.println("Student Registration Failed: " + e.getMessage());
         }
     }
 }

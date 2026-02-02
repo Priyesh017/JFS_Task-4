@@ -3,7 +3,7 @@ package student.validation.system;
 import exception.handling.AgeNotWithinRangeException;
 import exception.handling.NameNotValidException;
 
-public class Student {
+final class Student {
     private final int rollNo;
     private final String name;
     private final int age;
@@ -27,7 +27,7 @@ public class Student {
     }
 
     void display() {
-        System.out.println("Registration Successful");
+        System.out.println("Student Registration Successful");
         System.out.printf(format, "Roll No", "Name", "Age", "Course");
         System.out.println("------------------------------------------------------------------------");
         System.out.printf(format, rollNo, name, age, course);
