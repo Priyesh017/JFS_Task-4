@@ -1,0 +1,119 @@
+==============================================================
+       JFS TASK 4: JAVA ADVANCE - EXCEPTION & COLLECTION
+              EXECUTION, PROBLEM GUIDE & OUTPUT
+==============================================================
+
+NOTE: Implementation includes Encapsulation (private fields
+with getter methods) to ensure data integrity.
+
+--------------------------------------------------------------
+TASK A: Student Validation System (Custom Exceptions)
+--------------------------------------------------------------
+DESCRIPTION:
+Implementation of a student management system that validates
+input data using user-defined exception classes.
+
+EXECUTION:
+1. COMPILE: javac student/validation/system/*.java
+2. RUN:     java student.validation.system.Main
+
+PROBLEM STATEMENT:
+Ramesh is developing a student management system for a
+university. In this system, you have a student class to
+represent student information. You are asked to help Ramesh
+to handle exception which can be occurred into program
+according to following scenarios:
+
+a. Create class Student with attributes: Roll No, Name, Age,
+   and Course. Initialize via parameterized constructors.
+b. If Age is not between 15 and 21, then generate a user
+   defined exception "AgeNotWithinRangeException".
+c. If Name contains numbers or special symbols, raise
+   exception "NameNotValidException".
+Define two exception classes.
+
+OUTPUT:
+
+
+--------------------------------------------------------------
+TASK B: Voter Eligibility (Constructor Exceptions)
+--------------------------------------------------------------
+DESCRIPTION:
+A system to validate voter registration based on age criteria
+using exception handling within a constructor.
+
+EXECUTION:
+1. COMPILE: javac tax/management/system/*.java
+2. RUN:     java tax.management.system.Main
+
+PROBLEM STATEMENT:
+Create a class Voter(voterId, name, age) with a parameterized
+constructor. The constructor should throw a checked/unchecked
+exception if age is less than 18 with the message:
+"invalid age for voter".
+
+OUTPUT:
+
+
+--------------------------------------------------------------
+TASK C: Weekday Lookup (Array Bounds Handling)
+--------------------------------------------------------------
+DESCRIPTION:
+A program that maps integers to weekdays while protecting
+against invalid index inputs.
+
+EXECUTION:
+1. COMPILE: javac tax/management/system/*.java
+2. RUN:     java tax.management.system.Main
+
+PROBLEM STATEMENT:
+Store weekday names in an array (Sunday at index 0). Request
+a day position from the user and print the name. Handle
+ArrayIndexOutOfBoundsException with a proper message if the
+user enters an index outside the 0-6 range.
+
+OUTPUT:
+
+
+--------------------------------------------------------------
+TASK D: Student Grade Tracker (HashMap Application)
+--------------------------------------------------------------
+DESCRIPTION:
+Management of student records using a Map collection for
+efficient data retrieval.
+
+EXECUTION:
+1. COMPILE: javac tax/management/system/*.java
+2. RUN:     java tax.management.system.Main
+
+PROBLEM STATEMENT:
+Create a HashMap where Keys are Student Names (String) and
+Values are Grades (Integer). Implement methods to:
+a. Add a new student.
+b. Remove a student.
+c. Display a student's grade by name.
+
+OUTPUT:
+
+
+--------------------------------------------------------------
+TASK E: Integer Stack Manager (Collection Classes)
+--------------------------------------------------------------
+DESCRIPTION:
+Implementation of a Stack data structure using Java's
+Collection Framework.
+
+EXECUTION:
+1. COMPILE: javac tax/management/system/*.java
+2. RUN:     java tax.management.system.Main
+
+PROBLEM STATEMENT:
+Use Collection Classes to store Integers and implement
+functions for:
+a. Pushing elements onto the stack.
+b. Popping elements from the stack.
+c. Checking if the stack is empty.
+
+OUTPUT:
+
+==============================================================
