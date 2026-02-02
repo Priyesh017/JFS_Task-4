@@ -88,10 +88,9 @@ EXECUTION:
 
 PROBLEM STATEMENT:
 Create a HashMap where Keys are Student Names (String) and
-Values are Grades (Integer). Implement methods to:
-a. Add a new student.
-b. Remove a student.
-c. Display a student's grade by name.
+Values are Grades (Integer). Create methods to add a new
+student, remove a student and display up a student's grade
+by name.
 
 OUTPUT:
 
