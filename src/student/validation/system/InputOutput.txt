@@ -1,0 +1,35 @@
+==============================================================
+TASK A: Student Validation System (Custom Exceptions)
+==============================================================
+
+Input & Output:
+--------------------------------------------------------------
+Roll no: 101
+Name: John Doe
+Age: 20
+Course: Computer Science
+Student Registration Successful
+Roll No    Name                      Age                       Course
+------------------------------------------------------------------------
+101        John Doe                  20                        Computer Science
+
+Roll no: 102
+Name: Jane Doe
+Age: 14
+Course: Biology
+Student Registration Failed: Age must be between 15 and 21
+
+Roll no: 103
+Name: Alex123
+Age: 19
+Course: Math
+Student Registration Failed: Name cannot contain any number or special symbols
+
+Roll no: 104
+Name: Sarah Miller
+Age: 21
+Course: History
+Student Registration Successful
+Roll No    Name                      Age                       Course
+------------------------------------------------------------------------
+104        Sarah Miller              21                        History

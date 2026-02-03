@@ -1,0 +1,47 @@
+==============================================================
+TASK D: Student Grade Tracker (HashMap Application)
+==============================================================
+
+Input & Output:
+--------------------------------------------------------------
+=== Student Grade Tracker Console ===
+
+Options: [1] Add  [2] Remove  [3] Search  [4] View All  [5] Exit
+Select choice: 4
+The grade book is currently empty.
+
+Select choice: 1
+Enter name: Alice
+Enter grade: 80
+>>> Alice added with grade: 80
+
+Select choice: 1
+Enter name: Alice
+Enter grade: 100
+>>> Alice added with grade: 100
+
+Select choice: 3
+Enter name to search: Alice
+RESULT: Alice has a grade of 100
+
+Select choice: 1
+Enter name: Alice
+Enter grade: 95
+>>> Alice added with grade: 95
+
+Select choice: 1
+Enter name: Bob
+Enter grade: 82
+>>> Bob added with grade: 82
+
+Select choice: 3
+Enter name to search: Alice
+RESULT: Alice has a grade of 95
+
+Select choice: 4
+--- Full Grade List ---
+Name: Alice | Grade: 95
+Name: Bob | Grade: 82
+
+Select choice: 5
+Exited

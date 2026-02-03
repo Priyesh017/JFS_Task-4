@@ -1,0 +1,37 @@
+==============================================================
+TASK E: Integer Stack Manager (Collection Classes)
+==============================================================
+
+Input & Output:
+--------------------------------------------------------------
+Select choice: 3
+The stack is currently EMPTY.
+
+Select choice: 2
+Error: Cannot pop! The stack is empty.
+
+Select choice: 1
+Enter integer to push: 10
+>>> Pushed 10 onto the stack.
+
+Select choice: 1
+Enter integer to push: 20
+>>> Pushed 20 onto the stack.
+
+Select choice: 1
+Enter integer to push: 30
+>>> Pushed 30 onto the stack.
+
+Select choice: 2
+<<< Popped element: 30
+
+Select choice: 4
+Current Stack (Top to Bottom): [20, 10]
+
+Select choice: 3
+The stack is NOT empty.
+
+Select choice: 5
+Exited
+
+==============================================================

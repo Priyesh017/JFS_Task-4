@@ -8,40 +8,40 @@ public class Main {
         GradeBook gb = new GradeBook();
         boolean running = true;
 
-        System.out.println("Welcome to the Student Grade System!");
+        System.out.println("=== Student Grade Tracker Console ===");
+
         while (running) {
-            System.out.println("\nSelect an option:");
-            System.out.println("1. Add Student");
-            System.out.println("2. Remove Student");
-            System.out.println("4. Display All");
-            System.out.println("5. Exit");
-            System.out.print("Choice: ");
+            System.out.println("\nOptions: [1] Add  [2] Remove  [3] Search  [4] View All  [5] Exit");
+            System.out.print("Select choice: ");
 
             int choice = sc.nextInt();
-            sc.nextLine();
+            sc.nextLine(); // Clear newline buffer
 
             switch (choice) {
                 case 1:
                     System.out.print("Enter name: ");
-                    String nameAdd = sc.nextLine();
+                    String name = sc.nextLine();
                     System.out.print("Enter grade: ");
                     int grade = sc.nextInt();
-                    gb.addStudent(nameAdd, grade);
+                    gb.addStudent(name, grade);
                     break;
                 case 2:
                     System.out.print("Enter name to remove: ");
-                    String nameRemove = sc.nextLine();
-                    gb.removeStudent(nameRemove);
+                    gb.removeStudent(sc.nextLine());
+                    break;
+                case 3:
+                    System.out.print("Enter name to search: ");
+                    gb.displayGradeByName(sc.nextLine());
                     break;
                 case 4:
-                    gb.displayAllStudents();
+                    gb.displayAll();
                     break;
                 case 5:
                     running = false;
-                    System.out.println("Exiting...");
+                    System.out.println("Exited");
                     break;
                 default:
-                    System.out.println("Invalid choice. Try again.");
+                    System.out.println("Invalid entry.");
             }
         }
         sc.close();

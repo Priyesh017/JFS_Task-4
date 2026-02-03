@@ -1,0 +1,26 @@
+==============================================================
+TASK B: Voter Eligibility (Constructor Exceptions)
+==============================================================
+
+Input & Output:
+--------------------------------------------------------------
+Enter Voter ID: 101
+Enter Name: John Doe
+Enter Age: 18
+Voter Eligibility Successful
+Voter ID   Name                      Age
+------------------------------------------------------------------------
+101        John Doe                  18
+
+Enter Voter ID: 102
+Enter Name: Jane Smith
+Enter Age: 17
+Voter Eligibility Failed: Invalid age for Voter
+
+Enter Voter ID: 555
+Enter Name: Alice Brown
+Enter Age: 45
+Voter Eligibility Successful
+Voter ID   Name                      Age
+------------------------------------------------------------------------
+555        Alice Brown               45

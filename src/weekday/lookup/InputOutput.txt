@@ -1,0 +1,20 @@
+==============================================================
+TASK C: Weekday Lookup (Array Bounds Handling)
+==============================================================
+
+Input & Output:
+--------------------------------------------------------------
+Enter any position (0-6): 0
+Weekday Name at index: 0 is: Sunday
+
+Enter any position (0-6): 3
+Weekday Name at index: 3 is: Wednesday
+
+Enter any position (0-6): 6
+Weekday Name at index: 6 is: Saturday
+
+Enter any position (0-6): -1
+Unchecked Exception: Please enter a number between 0 and 6.
+
+Enter any position (0-6): 7
+Unchecked Exception: Please enter a number between 0 and 6.

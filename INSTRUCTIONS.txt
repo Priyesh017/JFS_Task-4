@@ -3,8 +3,8 @@
               EXECUTION, PROBLEM GUIDE & OUTPUT
 ==============================================================
 
-NOTE: Implementation includes Encapsulation (private fields
-with getter methods) to ensure data integrity.
+NOTE: Implementation includes HashMap, Stack which was beyond
+      current classwork.
 
 --------------------------------------------------------------
 TASK A: Student Validation System (Custom Exceptions)
@@ -32,9 +32,6 @@ c. If Name contains numbers or special symbols, raise
    exception "NameNotValidException".
 Define two exception classes.
 
-OUTPUT:
-
-
 --------------------------------------------------------------
 TASK B: Voter Eligibility (Constructor Exceptions)
 --------------------------------------------------------------
@@ -51,9 +48,6 @@ Create a class Voter(voterId, name, age) with a parameterized
 constructor. The constructor should throw a checked/unchecked
 exception if age is less than 18 with the message:
 "invalid age for voter".
-
-OUTPUT:
-
 
 --------------------------------------------------------------
 TASK C: Weekday Lookup (Array Bounds Handling)
@@ -72,9 +66,6 @@ a day position from the user and print the name. Handle
 ArrayIndexOutOfBoundsException with a proper message if the
 user enters an index outside the 0-6 range.
 
-OUTPUT:
-
-
 --------------------------------------------------------------
 TASK D: Student Grade Tracker (HashMap Application)
 --------------------------------------------------------------
@@ -92,9 +83,6 @@ Values are Grades (Integer). Create methods to add a new
 student, remove a student and display up a student's grade
 by name.
 
-OUTPUT:
-
-
 --------------------------------------------------------------
 TASK E: Integer Stack Manager (Collection Classes)
 --------------------------------------------------------------
@@ -107,12 +95,10 @@ EXECUTION:
 2. RUN:     java tax.management.system.Main
 
 PROBLEM STATEMENT:
-Use Collection Classes to store Integers and implement
-functions for:
-a. Pushing elements onto the stack.
+Use Collection Classes to store Integers. Create some methods
+for following functionalities:
+a. Include functions for pushing elements onto the stack.
 b. Popping elements from the stack.
 c. Checking if the stack is empty.
-
-OUTPUT:
 
 ==============================================================
